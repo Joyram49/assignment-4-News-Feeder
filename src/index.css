@@ -1,0 +1,35 @@
+@impor@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .skeleton {
+    @apply bg-gray-200/70  ring-1 ring-slate-900/5 rounded-lg shadow-lg;
+  }
+  .banner {
+    @apply w-full h-[300px] mb-6;
+  }
+  .text {
+    @apply w-full h-3.5 mb-2;
+  }
+
+  .half-text {
+    @apply w-[75%] h-3.5;
+  }
+  .title {
+    @apply w-full h-6 text-center mb-3;
+  }
+  .title-half {
+    @apply w-[60%] h-6 text-center mb-6;
+  }
+  .s-round {
+    @apply w-3.5 h-3.5 rounded-full;
+  }
+  .pill {
+    @apply w-16 h-3 rounded-lg my-10;
+  }
+
+  .line {
+    @apply w-[30%] h-2 rounded;
+  }
+}
